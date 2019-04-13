@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="WFC_2D.cpp" />
+    <ClCompile Include="..\fastwfc\stdafx.cpp">
+      <Filter>fast_wfc</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CLInclude Include="resource.h" />
+    <ClInclude Include="..\fastwfc\lib\rapidxml.hpp">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fastwfc\lib\stb_image.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fastwfc\lib\stb_image_write.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fastwfc\utils\array2D.hpp">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fastwfc\utils\array3D.hpp">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fastwfc\utils\color.hpp">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fastwfc\utils\image.hpp">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fastwfc\propagator.hpp">
+      <Filter>fast_wfc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fastwfc\wave.hpp">
+      <Filter>fast_wfc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fastwfc\wfc.hpp">
+      <Filter>fast_wfc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fastwfc\direction.hpp">
+      <Filter>fast_wfc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fastwfc\overlapping_wfc.hpp">
+      <Filter>fast_wfc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fastwfc\stdafx.h">
+      <Filter>fast_wfc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fastwfc\targetver.h">
+      <Filter>fast_wfc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fastwfc\utils\rapidxml_utils.hpp">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fastwfc\utils\utils.hpp">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fastwfc\tilemap.hpp">
+      <Filter>fast_wfc</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="WFC_2D.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\DXUT\Optional\directx.ico" />
+    <None Include="WFC_2D.fx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="lib">
+      <UniqueIdentifier>{86cfde49-93ff-4b99-a2b8-f509b2e6d5ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils">
+      <UniqueIdentifier>{3ae91cd3-c874-43eb-a7d3-bdc09e92add1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fast_wfc">
+      <UniqueIdentifier>{01f96ab5-cae2-4a5d-bf3d-58c0687b4608}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="..\fastwfc\samples.xml">
+      <Filter>fast_wfc</Filter>
+    </Xml>
+  </ItemGroup>
+</Project>
