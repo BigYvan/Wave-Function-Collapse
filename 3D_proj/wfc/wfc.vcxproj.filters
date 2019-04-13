@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="wfc.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <CLInclude Include="resource.h" />
+    <ClInclude Include="wave.hpp">
+      <Filter>wfc_3d</Filter>
+    </ClInclude>
+    <ClInclude Include="propagator.hpp">
+      <Filter>wfc_3d</Filter>
+    </ClInclude>
+    <ClInclude Include="direction.hpp">
+      <Filter>wfc_3d</Filter>
+    </ClInclude>
+    <ClInclude Include="genericWFC.hpp">
+      <Filter>wfc_3d</Filter>
+    </ClInclude>
+    <ClInclude Include="tilesmap.hpp">
+      <Filter>wfc_3d</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidxml.hpp">
+      <Filter>wfc_3d\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="array3D.hpp">
+      <Filter>wfc_3d\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="array4D.hpp">
+      <Filter>wfc_3d\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidxml_utils.hpp">
+      <Filter>wfc_3d\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="model.hpp">
+      <Filter>wfc_3d\utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="wfc.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\DXUT\Optional\directx.ico" />
+    <None Include="wfc.fx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="..\fastwfc\samples.xml" />
+    <Xml Include="samples.xml">
+      <Filter>wfc_3d</Filter>
+    </Xml>
+    <Xml Include="..\..\Media\Racetrack\data.xml" />
+    <Xml Include="..\..\Media\test\data.xml">
+      <Filter>wfc_3d</Filter>
+    </Xml>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="wfc_3d">
+      <UniqueIdentifier>{9296b5b9-7532-4d93-b082-d4835a18f7a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="wfc_3d\lib">
+      <UniqueIdentifier>{0a737e17-5266-4b93-94c8-1f8496eaae2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="wfc_3d\utils">
+      <UniqueIdentifier>{819a8f79-da4f-43a0-b629-23e75b726c14}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
